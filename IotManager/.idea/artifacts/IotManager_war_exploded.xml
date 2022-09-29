@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="IotManager:war exploded">
+    <output-path>$PROJECT_DIR$/target/IotManager-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>IotManager</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="IotManager" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/eclipse/californium/californium-core/3.0.0-SNAPSHOT/californium-core-3.0.0-20210902.070103-265.jar" output-file-name="californium-core-3.0.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/eclipse/californium/californium-legal/3.0.0-SNAPSHOT/californium-legal-3.0.0-20210902.070110-265.jar" output-file-name="californium-legal-3.0.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/eclipse/californium/element-connector/3.0.0-SNAPSHOT/element-connector-3.0.0-20210902.070103-265.jar" output-file-name="element-connector-3.0.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: net.i2p.crypto:eddsa:0.3.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
+          <element id="library" level="project" name="Maven: junit:junit:4.10" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/IotManager-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="IotManager/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipse.californium:californium-legal:3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/californium/californium-legal/3.0.0-SNAPSHOT/californium-legal-3.0.0-20210902.070110-265.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/californium/californium-legal/3.0.0-SNAPSHOT/californium-legal-3.0.0-20210902.070110-265-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/californium/californium-legal/3.0.0-SNAPSHOT/californium-legal-3.0.0-20210902.070110-265-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

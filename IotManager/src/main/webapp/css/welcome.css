@@ -1,0 +1,17 @@
+.round-border{
+    border: 1px solid #ccc!important;
+    border-radius: 16px;
+    display: inline-block;
+    padding: 20px;
+    width: fit-content;
+    list-style-type: none;
+}
+
+li{
+    margin: 5px;
+}
+
+.chart{
+    width: 500px;
+    display: inline-block;
+}
