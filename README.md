@@ -3,11 +3,15 @@ This is my project for the Internet of things course. The application is compose
 * WSN Clusters of Contiki operated devices
 * A webapplication managing the devices
 * A simple web interface to let the manager interact with the system
+
 The idea is to create different networks of IoT devices able to collect data on different physical metrics through sensors:
 * Temperature
 * Light
 * Umidity
+
 The aggregated data as well as a set of triggers for actuators can be managed by the user using a Tomcat Webapplication.
+
+<img src="images/overview_architecture.png" height="400" width="700"/> 
 
 # Functionalities
 
